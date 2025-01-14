@@ -1,0 +1,19 @@
+{
+  "name": "rego-fix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Caio Theodoro de Carvalho",
+  "license": "ISC",
+  "workspaces": [
+    "packages/regofix.web",
+    "packages/regofix.mobile-app",
+    "packages/regofix.api"
+  ],
+  "dependencies": {
+    "react": "^19.0.0"
+  }
+}
